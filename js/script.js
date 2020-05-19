@@ -23,6 +23,10 @@ document.getElementById('psdGenerator').innerHTML = psdUtente;
 alert('Login esuguito con successo!');
 
 // Saluto Utente
-var salutoUtente = 'Ciao ' + nomeUtente + '! Benvenuto/a sul tuo profilo.'
+var salutoUtente = 'Ciao ' + nomeUtente + '!';
 console.log(salutoUtente);
-document.getElementById('welcome').innerHTML = salutoUtente;
+document.getElementById('hello').innerHTML = salutoUtente;
+
+var welcomeUtente = 'Benvenuto/a sul tuo profilo.';
+console.log(welcomeUtente);
+document.getElementById('welcome').innerHTML = welcomeUtente;
